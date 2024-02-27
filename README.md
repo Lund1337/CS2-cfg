@@ -8,4 +8,4 @@
 6. Auto walk and duck
 7. Change crosshair type
 8. Drop bomb
-## Check all custom commands in game using 'cfghelp'
+### Check all custom commands in game using `cfghelp`
