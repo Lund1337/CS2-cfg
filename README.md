@@ -1,12 +1,4 @@
 # CS2 custom config
 ## Custom aliases:
-1. Attack Crosshair
-2. Nulls
-3. Duck jump
-4. Lonj jump
-5. Jump bug
-6. Crosshair for lineups
-7. Auto walk and duck
-8. Change crosshair type
-9. Drop bomb
+![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/82408b7c-8f6b-4d21-a633-9c9b8358bcda)
 ### Check all custom commands in game using `cfghelp`
