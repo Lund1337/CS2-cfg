@@ -1,6 +1,6 @@
 # CS2 custom config
 ## Custom aliases:
-![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/0516a830-8c85-44e7-a547-98a2deacb3a2)
+![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/5b602ecf-05b8-49cf-be02-770f22b297c2)
 ### Check all custom commands in game using `cfghelp`
 ## Default keybinds:
 ```
@@ -24,7 +24,7 @@
 "h" = "slot5"
 "i" = "show_loadout_toggle"
 "m" = "teammenu"
-"n" = "noclip"
+"n" = "noclip; play_click"
 "q" = "lastinv"
 "r" = "+reload"
 "s" = "+back"
@@ -35,7 +35,7 @@
 "x" = "slot12"
 "y" = "messagemode"
 "z" = "+voicerecord"
-"'" = "toggle cl_silencer_mode"
+"'" = "toggle cl_silencer_mode; play_enable"
 "`" = "toggleconsole"
 "," = "autowalk"
 "." = "autoduck"
@@ -53,13 +53,14 @@
 "PAUSE" = "pause"
 "SHIFT" = "+sprint"
 "ALT" = "+dj_"
+"RALT" = "volume 0.30; echo  volume 0.30 ; play_book"
 "CTRL" = "+duck_"
-"UPARROW" = "incrementvar volume 0 1 0.025"
+"UPARROW" = "incrementvar volume 0 1 0.025; play_rotate_on"
 "LEFTARROW" = "+turnleft"
-"DOWNARROW" = "incrementvar volume 0 1 -0.025"
+"DOWNARROW" = "incrementvar volume 0 1 -0.025; play_rotate_off"
 "RIGHTARROW" = "+turnright"
-"F1" = "clutch_mode_toggle; echo  Toggled Clutch Mode "
-"F2" = "voice_modenable_toggle; echo  Toggled Voice Chat "
+"F1" = "clutch_mode_toggle; echo Toggled Clutch Mode; play_dogeiger"
+"F2" = "voice_modenable_toggle; echo Toggled Voice Chat; play_geiger"
 "F3" = "autobuy"
 "F4" = "rebuy"
 "F5" = "jpeg"
@@ -67,8 +68,8 @@
 "F7" = "radio2"
 "F8" = "radio"
 "F9" = "radio1"
-"F10" = "disconnect"
-"F11" = "cs_quit_prompt"
+"F10" = "disconnect; play_button"
+"F11" = "cs_quit_prompt; play_button"
 "MOUSE1" = "+attack_ch"
 "MOUSE2" = "+attack2"
 "MOUSE3" = "player_ping"
