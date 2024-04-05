@@ -1,6 +1,8 @@
 # CS2 custom config
-## Custom aliases:
-![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/5b602ecf-05b8-49cf-be02-770f22b297c2)
+## Exec using `exec_async autoexec`
+![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/958f3b6d-4580-4292-857c-70f1e5ad39c5)
+## Custom Help Menu:
+![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/f7e97008-aea9-4b38-9a58-aa3cbb112c78)
 ### Check all custom commands in game using `cfghelp`
 ## Default keybinds:
 ```
