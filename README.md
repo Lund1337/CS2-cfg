@@ -1,8 +1,8 @@
 # CS2 custom config
 ### Exec using `exec_async autoexec` or Launch option `+exec_async autoexec`
-![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/958f3b6d-4580-4292-857c-70f1e5ad39c5)
+![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/2b6092b9-ccad-461d-8678-50654aa94391)
 ## Custom Help Menu:
-![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/891716f6-98ff-4d3c-bcf7-1e6e1fb959e6)
+![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/4fa32133-0c4b-474b-9522-2defc306cd93)
 ### Check all custom commands in game using `cfghelp`
 ## Default keybinds:
 ```
@@ -25,8 +25,9 @@
 "g" = "drop"
 "h" = "slot5"
 "i" = "show_loadout_toggle"
+"l" = "+attack;-attack;slot5"
 "m" = "teammenu"
-"n" = "noclip; play_click"
+"n" = "noclip"
 "q" = "lastinv"
 "r" = "+reload"
 "s" = "+back"
@@ -37,6 +38,7 @@
 "x" = "slot12"
 "y" = "messagemode"
 "z" = "+voicerecord"
+"SEMICOLON" = "toggle r_drawtracers_firstperson; play_enable"
 "'" = "toggle cl_silencer_mode; play_enable"
 "`" = "toggleconsole"
 "," = "autowalk"
@@ -45,7 +47,7 @@
 "-" = "slot13"
 "SPACE" = "+jump_"
 "TAB" = "+showscoresnet"
-"CAPSLOCK" = "+quickinv"
+"CAPSLOCK" = "toggleradarscale"
 "ESCAPE" = "cancelselect"
 "INS" = "toggleconsole"
 "DEL" = "sellbackall"
@@ -55,14 +57,14 @@
 "PAUSE" = "pause"
 "SHIFT" = "+sprint"
 "ALT" = "+dj_"
-"RALT" = "volume 0.30; echo  volume 0.30 ; play_book"
-"CTRL" = "+duck_"
+"RALT" = "volume 0.30; #volume; play_book"
+"CTRL" = "+duck"
 "UPARROW" = "incrementvar volume 0 1 0.025; play_rotate_on"
 "LEFTARROW" = "+turnleft"
 "DOWNARROW" = "incrementvar volume 0 1 -0.025; play_rotate_off"
 "RIGHTARROW" = "+turnright"
-"F1" = "clutch_mode_toggle; echo Toggled Clutch Mode; play_dogeiger"
-"F2" = "voice_modenable_toggle; echo Toggled Voice Chat; play_geiger"
+"F1" = "cl_clutch_mode; #clutch; play_double_geiger"
+"F2" = "voice_modenable_toggle; #voice; play_geiger"
 "F3" = "autobuy"
 "F4" = "rebuy"
 "F5" = "jpeg"
@@ -75,8 +77,13 @@
 "MOUSE1" = "+attack_ch"
 "MOUSE2" = "+attack2"
 "MOUSE3" = "player_ping"
-"MOUSE4" = "say !/medic"
-"MOUSE5" = "+crosshairsmoke"
-"MWHEELUP" = "+jump_"
+"MOUSE4" = "switchhands"
+"MWHEELUP" = "+jb"
 "MWHEELDOWN" = "+jump_"
+"MOUSE_X" = "yaw"
+"MOUSE_Y" = "pitch"
+"X_AXIS" = "rightleft"
+"Y_AXIS" = "!forwardback"
+"R_AXIS" = "pitch"
+"U_AXIS" = "yaw"
 ```
