@@ -1,6 +1,7 @@
 # CS2 custom config
-### Exec using `exec_async autoexec` or Launch option `+exec_async autoexec`
-![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/fd0af2d0-c017-49e9-9280-10a11a4aae7d)
+### Exec using `exec_async autoexec` or 
+### Add Launch option `+exec_async autoexec`
+![image](https://github.com/user-attachments/assets/9f617711-1495-4026-bdc6-f6e56ffea3d3)
 ## Custom Help Menu:
-![image](https://github.com/Lund1337/CS2-cfg/assets/59971256/4fa32133-0c4b-474b-9522-2defc306cd93)
+![image](https://github.com/user-attachments/assets/57a0228f-9065-4dc9-bd44-0cf86533e84c)
 ### Check all custom commands in game using `cfghelp`
